@@ -1,0 +1,1 @@
+- sectioning number with single quote: `int a{1'000'000};`
