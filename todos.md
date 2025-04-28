@@ -1,19 +1,34 @@
-today - sunday
-booking dentist
-cpp primer - finish and revise oop part
-ncurse priming + designing chat client
-network priming
-building resume
+- cs:
+  - os
+    - homework in tlb (good)
+    - homework on weekends only (yay)
+  - network
+  - cpp
+  - bash
+  - fintech
+    - learn about trading object
+    - FIX protocols
+- german
+- apply jobs
+    - [call](https://www.efinancialcareers.sg/jobs-Singapore-Singapore-Quant_Researcher_-_HFT_-_Top_rated_global_hedge_fund.id22682504?apply=true)
+- make kiosk
+- personal project
+- dental appointment
+- insurance matter
+- aux:
+    - config nvim for markdown shortcut
+    - config nvim for tty
+- learn valgrind
+- `npm rm -g @aws-amplify/cli`
+
 
 - empower chat:
-    - chat functional enhancement (images, voices, files)
-        - [ ] translation
-        - [ ] notification
-        - [ ] telling the patient which physician is connected
-        - [x] latest message in the inbox title
-    - resource translation:
-        - [ ] cleanup duplicate translation
-        
+  - chat functional enhancement (images, voices, files)
+    - [ ] translation
+    - [ ] notification
+    - [ ] telling the patient which physician is connected
+  - resource translation:
+    - [ ] cleanup duplicate translation
 
 reading backlogs:
 - [ ] write note on corner detection and sift

@@ -33,7 +33,10 @@
 `tar -zcf`gzip, create, file
 `tar -af` append, file
 `tar -df` delete, file
-
+`disown` detach process
+`sensors` cpu temphttps://wiki.archlinux.org/title/Power_management/Suspend_and_hibernate#Hibernation
+`nice CMD` modify scheduling priority 
+`uname -a` kernel version
 
 ## docker
 `docker stop $(docker ps -a -q -f status=exited)` stop docker container
@@ -41,8 +44,10 @@
 `docker system prune` clean total
 `docker image save <name> > file.tar` save image
 `docker image load -i file.tar` load image
+`docker run -d empower-plus/dep:latest tail -f /dev/null` spawn a container from image with no exec
+`docker exec -it <container> <cmd>` run cmd in container
 
-`gzip -dk file` -d to decompress and delete .gz find and -k to keep the origfile
+`gzip -dk file` -d to decompress and delete .gz, -k to keep
 
 ## packages, check out more on wiki
 `pkgfile name` to find which package contains the file with that name
@@ -62,10 +67,12 @@
 `tmux capture-pane -e -p -t {pane_name}`
 `tmux join-pane -s sess:win.pane` move src pane to this pane (join, not replace)
 `tmux join-pane -t sess:win.pane` same except move this pane to target
+`tmux break-pane` put pane into a new window
 
 `pgrep -P pid` to get child process of pid
 
 ## git
+`git reset` unstage all changes
 `git reset HEAD~n` undo the commit but don't change files on disk
 `git reset --hard HEAD` undo commit and remove changes
 `git restore .` discard unstaged files
@@ -83,9 +90,10 @@
 # utils
 `netstat -lnp` find process bound to a port, add `-t` to find tcp only
 `ps -p<pid>` to find command initiated process with pid
+`ps -d` list all process except session leader
+`pgrep <command>` get process with name
 `kill -TERM <pid>` kill proc with pid
 `fuser PORT/tcp` kill proc bound to port (tcp or udp)
-
 
 ## music
 `spotdl <sync> url` download or sync playlist
@@ -99,6 +107,7 @@
 
 ## network
 ### client
+`eval $(ssh-agent)` + `ssh-add` to add identity
 `ssh username@host` options: `-A` auth forward `-X` x11 forward `-L local:port:host:port` connection to (local) addr1 is forwarded to (host) addr2
 `curl -O link` download and save content to same file name as remote
 `curl link -D file` dump header
@@ -124,6 +133,9 @@ all following is prepended by `protonvpn`
 `latexmk -pdf -f shit.tex` gen pdf
 `latexmk -c shit.tex` clean up
 when package/file is missing: either `pacman -F file.sty` to find the arch pkg to intall the group with the pack or `tlmgr` to only install the package. 
+
+## shell
+`export HISTTIMEFORMAT="%d/%m/%y %T "` for history with time
 
 ## names
 mpris - media control

@@ -10,14 +10,18 @@ contribution:
 - whatsapp/telegram cli client
 - florisboard: telex fix accent putting and capitalization logic (porting from unikey?)
 - florisboard: suggestion and shit
+- file viewing mode that divides screen to see as much log as possible
+- okular: pinching gesture, font size for anno while editing
 
 configs nvim:
 - lspsaga: outline (fixbug when switch file with outline opened). Fixbug when nav to call-hierachy
-- lspsaga: peek definition
+- lspsaga: peek definition
 - mapping: remove diagnostic text
 - tmux attach: when use lock selection send, if the above line is longer and press $, the thing so short for the long line
 - recognizing string literals as programming script (and attach lsp client)
 - making profiles for using on termux and over connection (slow shit, mostly coloring is expensive formatting data)
+- dap: temporary disable all breakpoints (or run til last)
+- dap: jump to line
 
 engineering:
 - geolocation by starwatching (not possible due to unclear sky)
@@ -26,9 +30,24 @@ engineering:
 - automatic landing unit (illegal)
 - socket prog how to partially desrialize a long message 
 
+projects:
+- chatcurse
+- krapka
+- personal website
+    - terminal on the web
+- dev events calendar customizeable to interest
+- scramble solver
+    - taking account of used letters, remaining letter and possible next letters
+
 learn:
 - remote controls desktop, how it works
 - awk scripting and history | fzf | execute chain
+- cache coherence
+- how does fcm work
+
+write:
+- why cache need to be small (not only econ, but phys)
+- memory sharing (e.g. code sharing, might be lib call (.so))
 
 ## softwares to try out:
 httpie - http client
