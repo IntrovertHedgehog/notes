@@ -1,5 +1,5 @@
 ## system & util
-`gdu` scan dir space
+`gdu` scan disk space from cwd
 `du -d 1` scan dir space with depth 1
 `df` check disk space
 `wc -l <file or pipe>` count number of line
@@ -37,6 +37,9 @@
 `sensors` cpu temphttps://wiki.archlinux.org/title/Power_management/Suspend_and_hibernate#Hibernation
 `nice CMD` modify scheduling priority 
 `uname -a` kernel version
+`chattr` modify file attributes
+`brightnessctl` brightness (backlight) adjustment
+`pmap <pid>` see virtual memory mapping
 
 ## docker
 `docker stop $(docker ps -a -q -f status=exited)` stop docker container
@@ -94,6 +97,9 @@
 `pgrep <command>` get process with name
 `kill -TERM <pid>` kill proc with pid
 `fuser PORT/tcp` kill proc bound to port (tcp or udp)
+`sed -E -i "<first>,<last>s/pattern/replacement" **/*.py` replace (i)nplace the file by substitute pattern in the range for all python files, `-E` for extended regex
+  - `sed --separate -n -E -e "s/pattern/subtitute/;p" **/*.py -i`: separate files, do not print lines (so it doesn't print original lines), use extended regex, script attempts subtitute then print result for all python files, in place. Use for final
+  - `sed --separate -n -E -e "s/pattern/subtitute/p" **/*.py`: sep file, no print, extended regex, subtitute and print **only when matched**. Use for preview
 
 ## music
 `spotdl <sync> url` download or sync playlist
@@ -102,7 +108,8 @@
 ## others
 `calcurse` calendar
 `newsboat` news from rss
-`pdktk` tinkering with pdf files (black magic)
+`pdftk` tinkering with pdf files (black magic)
+`pdftk input_pdf imput_pw <pwd> output out.pdf` - remove pwd from pdf
 `perl-rename` rename multiple files perl regex
 
 ## network
@@ -120,6 +127,7 @@
 `nbtscan <ip>/xx` scan netBIOS info
 `arp` address resolution protocol, private ip -> mac
 `nethogs` watch process network activity
+`ip route` find network route, can find router ip
 
 ### protonvpn
 all following is prepended by `protonvpn`
@@ -136,15 +144,14 @@ when package/file is missing: either `pacman -F file.sty` to find the arch pkg t
 
 ## shell
 `export HISTTIMEFORMAT="%d/%m/%y %T "` for history with time
+`set -x` turn on tracing for bash/zsh, `set +x` turn it off
+`bash -x file.sh` with `-x` is the same thing from `set`
 
 ## names
 mpris - media control
 iptv - internet tv
 m3u - media playlist format
 repology - finding software version avail on distro pkg repo
-
-
-
 
 kill process by name
 find pid by port listening to

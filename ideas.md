@@ -34,10 +34,21 @@ projects:
 - chatcurse
 - krapka
 - personal website
-    - terminal on the web
+  - terminal on the web
 - dev events calendar customizeable to interest
-- scramble solver
-    - taking account of used letters, remaining letter and possible next letters
+- scrabble solver
+  - taking account of used letters, remaining letter and possible next letters
+- algos:
+  - efficient deletion for bin heap
+- ipython and vim integration:
+  - a background server to run the python shell and spit output
+  - use pseudo tty to send input to the shell
+  - client to received and display result
+  - cmd or rpc interface for api
+- wm switcher:
+  - switching from i3 to plasma (kwin) without killing the open windows
+  - might need to do word with display manager
+  - assume they run on X11
 
 learn:
 - remote controls desktop, how it works
@@ -77,4 +88,5 @@ apache arrow
 tectonic - modern latex typsetting engine, auto download pkg when compile
 trivy to scan code vuln
 learn more about static code analysis, ast-grep and treesitter tooling
-
+valgrind - debugging and profiling program. helgrind is a tool for finding thread bug
+xremap - remapping keys on x, support specific application
