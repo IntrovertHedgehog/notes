@@ -146,6 +146,7 @@ when package/file is missing: either `pacman -F file.sty` to find the arch pkg t
 `export HISTTIMEFORMAT="%d/%m/%y %T "` for history with time
 `set -x` turn on tracing for bash/zsh, `set +x` turn it off
 `bash -x file.sh` with `-x` is the same thing from `set`
+`dirname <path>` strip last component of path
 
 ## names
 mpris - media control
