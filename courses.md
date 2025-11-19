@@ -1,3 +1,4 @@
+# computer vision
 computer vision courses overview:
 - penn's is more basic and focusing on fundamental, there's lower level technicality
 - cs131 is topic based and segmented based on the techniques and usages. It's very heavy in technicality but never dive deep into it, likely to read lot of papers for in depth understanding
@@ -26,78 +27,9 @@ conclusion to multilingual app:
     1. app: generating translation files and ship with the app
     2. resources: the resources on the server can be requested with target language and translated on the spot, and get cached. Or the translation can be generated on update, and saved to the database
 
+# operating system
+- ostep
+- utah parallel computer architecture: [cs7820](https://users.cs.utah.edu/~rajeev/cs7820/)
 
-# PFP
-DigitalOcean
-Email: blitz.bala@gmail.com
-PW: PFPAdmin123$
-
-Zoho (Email Client)
-Email: blitz.bala@gmail.com
-PW: PFPAdmin123$
-
-Note:
-- Can configure up to 5 emails
-- Current email configured: admin@pilotsforpilots.org
-
-
-todos:
-- startup the backend and test all the docker images works
-- start the frontend and test the annoucement with/without images
-
-
-# empower
-get an online physician with least amount of patient in his management
-
-# bjj
-- go for sg2 beginner classes on aug 5 - sept 13
-- switch gym to fortitude
-
-
-
-# AI healthcare plan
-This healthcare plan, do you have template or a database of them to see what is it supposed to look like.
-Since LLM perform better with a structured output, you should build a template
-In each component of the template, you you supply the model with only relevant information
-from the data collected, categorize the data into relevant field for the next stage of processing
-
-
-- Framework: [i18n](https://www.i18next.com/), [react-i18next](https://react.i18next.com/)
-- languages files: `lang/en.json` and `lang/id.json` for english and bahasa indonesia. Mapping a label to respective language text.
-e.g. `en.json`
-```json
-{
-    "translation": {
-        "greeting": "Hello"
-    }
-}
-```
-`id.json`
-```json
-{
-    "translation": {
-        "greeting": "Halo"
-    }
-}
-```
-
-- how to use:
-assign `t()` function from `i18next` at the top of the file
-
-```js
-import i18n from 'i18next';
-
-const t = i18n.t;
-
-// use in plain function
-const get_string() => {
-    return t("greeting")
-}
-
-
-// use in components
-const Body(props) => {
-    return <div>t("greeting")</div>
-}
-```
-
+# database
+- idk dude

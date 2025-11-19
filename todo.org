@@ -5,7 +5,9 @@ learn basic bash scripting and write a util to merge all file in a dir to one fi
 * learn os 
 ** finish the next one, too
 
-* learn orgmode
+* config env
+** cron job to clean lsp.log
+** nvim revamp config system and plugins (no more nvchad)
 
 * do admin stuff
 ** make interactive broker account

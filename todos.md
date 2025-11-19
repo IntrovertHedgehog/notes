@@ -1,27 +1,30 @@
 - cs:
   - os
-    - homework in tlb (good)
-    - homework on weekends only (yay)
+    - concurrency bugs (Lu, in threads-bugs)
+    - wait-free synch
   - network
-  - cpp
+  - database
+  - cpp (the new standard)
   - bash
-  - fintech
-    - learn about trading object
-    - FIX protocols
-- german
-- apply jobs
-  - gs:
-    - Financial knowledge and good understanding of Equities Synthetic or Derivative products
-    - JVM internals, tuning for low-latency, GC-free real-time operation
-    - Experience building real-time low latency systems (order management systems, complex event processing or transaction sequencing architectures)
-- make kiosk
+  - MapReduce (concurrency)
+- language:
+  - german
+  - chinese
 - aux:
   - config nvim for markdown shortcut
   - config nvim for tty
 - learn valgrind
-- `npm rm -g @aws-amplify/cli`
+- history:
+  - ww2
+  - israel-palestine conflict
+    - sinwar
+    - saleh
+    - the Israel PM that tried peace
+    - The saudis
+  - holocaust
+  - vietnam history of the 20th century
+  - imperialism
 - reading backlogs:
-
   - [ ] write note on corner detection and sift
     - [ ] (paper) sift + affine invariance
     - [ ] fourier transform and frequency domain (mit lectures)

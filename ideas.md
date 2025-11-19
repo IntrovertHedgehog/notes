@@ -12,6 +12,7 @@ contribution:
 - florisboard: suggestion and shit
 - file viewing mode that divides screen to see as much log as possible
 - okular: pinching gesture, font size for anno while editing
+- xremap: vim-like macro support
 
 configs nvim:
 - lspsaga: outline (fixbug when switch file with outline opened). Fixbug when nav to call-hierachy
