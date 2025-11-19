@@ -109,3 +109,18 @@ And these details, too, if you may:
 - Is infrequent visitor allowed?
 
 Thank you very much. I hope to hear from you soon!
+
+
+Sorry for the postponement. I'm making sure I only say this once.
+You have gone the length of my patience, and I have no more for you.
+I tried, eric, to go easy one you and hope it gets better. But so far it's been disappointing. You complained and moaned like a child. You treated me as your emotion junkyard. You paid no respect to my time and effort. And I don't know what you thought when you made those remarks about Cheng, 
+You entitled yourself with the time, patience, and compassion of others.
+It's time for a grown adult to live like one. 
+I'll hold on the walk you propose. I have aspiration to chase, not to fuck around with some emo bullshit
+
+
+I've been silent, and hope it sent the message i intended to send.
+You've gone the length of my patience, and run my compassion dry. I won't accept being treated as an emotion junkyard anymore.
+I tried, eric, I hope you would do better, but your behaviors have been nothing but disappointment. Every week you said the same thing, and everytime you spilled your emotions on me in the middle of a work day. Maybe my responses have given you the wrong impressions, but I don't have many of them.
+You disrespected my privacy, wasted my time, and took my tolerance for granted. Please learn that you aren't entitled to my attention, or Cheng's forgiveness.
+It's time for you to live like an adult. Your grace period has expired long time ago. You said couples are supposed to grow together in a relationship. I think people just need to grow all the time. Do better.
