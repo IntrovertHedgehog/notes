@@ -40,7 +40,7 @@
 `chattr` modify file attributes
 `brightnessctl` brightness (backlight) adjustment
 `pmap <pid>` see virtual memory mapping
-`wmctrl -x -l` check application name
+`wmctrl -x -l` check application name window
 
 ## docker
 `docker stop $(docker ps -a -q -f status=exited)` stop docker container
@@ -56,6 +56,7 @@
 ## packages, check out more on wiki
 `pkgfile name` to find which package contains the file with that name
 `pacman -Sy --noconfirm name` to update db file and install package, no confirmation
+`pacman -Ss pkg` to update db file and install package, no confirmation
 `pacman -Rs name` remove recursive (dependencies not depended on by other pkg)
 `paccache -rk1` rm cached pkgs, keeping only 1 old version
 `pacman -Sc` clean cache of uinstalled pkg

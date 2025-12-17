@@ -8,6 +8,7 @@
 - `InspectTree` open syntax tree
 - `vim.diagnostic.hide()`
 - `^e` cancel dropdown
+- `set background=dark` to set variant
 
 # generic
 - `vim.fn.stdpath` to get runtime path of certain folder

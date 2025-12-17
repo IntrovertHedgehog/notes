@@ -14,6 +14,7 @@
   - config nvim for markdown shortcut
   - config nvim for tty
 - learn valgrind
+- learn strudel (music programming)
 - history:
   - ww2
   - israel-palestine conflict
@@ -35,12 +36,10 @@
   - [ ] go to kinokukiya and buy some book
   - [ ] reading: affine, aliasing, jacobian, gaussian function properties, how radio station work
   - [ ] opencv, learning, using, etc. find out how to contribute
+  - [ ] western civilization [roy casagranda](https://www.youtube.com/watch?v=Dk02knYp0xA)
 
-- vn_edu_corrupt (task 2):
-  - study the avail data in vhlss commune data regarding: distance to schools and health clinics (in Khoa's code has). Commune infrastructure.
-  - try aggregate the attributes from vhlss to papi by matching district
-  - find vars regarding infras
-  - get the coords of district center
+- today:
+    - decide whether to keep trouble or workspace-diagnostics since trouble.nvim seems to be a reimpl of somedefault thing 
 
 - guitar songs:
   - i love you so

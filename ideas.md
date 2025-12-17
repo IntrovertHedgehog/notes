@@ -13,6 +13,7 @@ contribution:
 - file viewing mode that divides screen to see as much log as possible
 - okular: pinching gesture, font size for anno while editing
 - xremap: vim-like macro support
+- git: when remove .gitignore, there's no way to remove the ignore on the previously ignored files
 
 configs nvim:
 - lspsaga: outline (fixbug when switch file with outline opened). Fixbug when nav to call-hierachy
@@ -23,6 +24,7 @@ configs nvim:
 - making profiles for using on termux and over connection (slow shit, mostly coloring is expensive formatting data)
 - dap: temporary disable all breakpoints (or run til last)
 - dap: jump to line
+- nvim: search in command mode output
 
 engineering:
 - geolocation by starwatching (not possible due to unclear sky)
@@ -50,6 +52,9 @@ projects:
   - switching from i3 to plasma (kwin) without killing the open windows
   - might need to do word with display manager
   - assume they run on X11
+- wikipedia:
+    - cli to browse wikipedia on TUI or `-c` mode for simple intro retrieval
+    - get relationship map of a person (oppenheimer -> McMahon, Acheson, Lilienthal, etc.)
 
 learn:
 - remote controls desktop, how it works
