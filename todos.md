@@ -1,11 +1,7 @@
 - cs:
-  - os
-    - concurrency bugs (Lu, in threads-bugs)
-    - wait-free synch
+  - wait-free sync (data structure)
   - network
   - database
-  - cpp (the new standard)
-  - bash
   - MapReduce (concurrency)
 - language:
   - german
@@ -39,7 +35,16 @@
   - [ ] western civilization [roy casagranda](https://www.youtube.com/watch?v=Dk02knYp0xA)
 
 - today:
-    - decide whether to keep trouble or workspace-diagnostics since trouble.nvim seems to be a reimpl of somedefault thing 
+    - linux dev (til 15): 
+        - gen the docs, read what i can, and pick out a subsystem to work on (should i consult the [kernelnewbies](https://kernelnewbies.org/))?
+        - compile and run on qemu??
+        - find the boot sequence (or read about it idc which)
+    - job search: find out the requirement and some sort of way to get there
+    - for fun
+        - [x] florisboard: telex fix accent putting and capitalization logic (porting from unikey?)
+        - [x] florisboard: suggestion and shit
+    - gym (17-21)
+    - plan workday
 
 - guitar songs:
   - i love you so

@@ -8,8 +8,8 @@ contribution:
 - calcurse: lunar dates
 - dunst: reply to msg from text app
 - whatsapp/telegram cli client
-- florisboard: telex fix accent putting and capitalization logic (porting from unikey?)
-- florisboard: suggestion and shit
+- [x] florisboard: telex fix accent putting and capitalization logic (porting from unikey?)
+- [x] florisboard: suggestion and shit
 - file viewing mode that divides screen to see as much log as possible
 - okular: pinching gesture, font size for anno while editing
 - xremap: vim-like macro support
@@ -24,7 +24,9 @@ configs nvim:
 - making profiles for using on termux and over connection (slow shit, mostly coloring is expensive formatting data)
 - dap: temporary disable all breakpoints (or run til last)
 - dap: jump to line
-- nvim: search in command mode output
+- nvim: search in command mode output (like :highlight or smt)
+- nvim: float buffer <M--> to be able to split (by create another one and resize)
+    - and maintain jump stack instead of resetting like now
 
 engineering:
 - geolocation by starwatching (not possible due to unclear sky)
